@@ -1,0 +1,72 @@
+# Theory Assignment:
+ - What is `NPM`?
+ ***Full form is Not a node pacakge manager. 
+ npm is the world’s largest Software Library (Registry). npm is also a software Package Manager and Installer.
+
+● - What is `Parcel/Webpack`? Why do we need it?
+ **** Parsel gives great development experience, from starting a new project to ierating and debugging and shipping to production.
+      Features: - Dev Build
+                - Local Server
+                - HMR = Hot Module Replacement(as soon as save file changes are available on webpage)
+                - File Watching Algorithm - written in c++
+                - Caching - (Faster Builds)
+                - Image Optimization
+                - Minification of production build
+                - Bundling
+                - Compress
+                - Consistant Hashing
+                - code splitting
+                - Diffrential Bundling - support older browsers
+                - Diagnostics
+                - Error Handling
+                - Https
+
+                
+● - What is `.parcel-cache`
+  ****Parcel space — On installing parcel. parcel-cache takes some space
+The .cache folder (or .parcel-cache in parcel v2) stores information about your project when
+ parcel builds it, so that when it rebuilds, it doesn't have to re-parse and re-analyze everything
+  from scratch. It's a key reason why parcel can be so fast in development mode. I think committing 
+  it to git would be a bad idea - it would add a large number of (unnecessary) changes to your commit
+   history, and it could easily get out-of-sync with the code that generated it.
+
+● - What is `npx` ?
+The npx stands for Node Package Execute and it comes with the npm, 
+when you installed npm above 5.2.0 version then automatically npx will installed.
+ It is an npm package runner that can execute any package that you want from the npm 
+ registry without even installing that package.
+
+● - What is difference between `dependencies` vs `devDependencies`
+***1 -"dependencies" is an obecjt taht contains library, which your project requires for production envionments and functioning effectively.
+      -"devDependencies" are those packages in the package.json file that you need only forBabel, Webpack,  etc.
+    2  -"dependencies" you require these package to test and run your project on localhost
+     -"devDependencies" These types of dependencies are required during the web application devlopment process but not while testing or executing it.
+     3- "devdependencies" you can add dependencies to the package.json file by runnig the below command
+        npm install <dependencies>
+      -"devdependencies" for npm install <dev_dependencies> --save- dev
+
+● - What is Tree Shaking?
+    Tree shaking is a term commonly used within a JavaScript context to describe the removal of dead code.
+    An unused export or import will be dropped.
+
+● - What is Hot Module Replacement?
+    Retain application state which is lost during a full reload.
+    Save valuable development time by only updating what’s changed.
+    Instantly update the browser when modifications are made to CSS/JS in the source code, which is almost comparable to changing styles directly in the browser’s dev tools.
+
+
+● - List down your favourite 5 superpowers of Parcel and describe any 3 of them in your
+own words.
+
+● - What is `.gitignore`? What should we add and not add into it?
+● - What is the difference between `package.json` and `package-lock.json`
+● - Why should I not modify `package-lock.json`?  
+● - What is `node_modules` ? Is it a good idea to push that on git?
+● - What is the `dist` folder?
+    Folder to generate builds. Dist keeps files minified for us.
+    Npx parcel build index.html
+● - What is `browserlists`
+
+Read about dif bundlers: vite, webpack, parcel
+● Read about: ^ - caret and ~ - tilda
+● Read about Script types in html (MDN Docs)

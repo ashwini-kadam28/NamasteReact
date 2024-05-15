@@ -1,0 +1,40 @@
+**** Package.json is a configuration for npm
+**** Webpack Bundler is actullay , parcel, veet basically same
+**** two types of dependency
+    1. dev dependency : generally required for development phase
+    2. normal dependencies: used in production also
+**** parcel is dev dependency
+**** ~ and ^ diff(tilde and caret)
+    ^ is upgrade minor version of package
+    ~ is upgrade major versions of pacakge
+**** Package.json is a configuration of npm. its keep track of what vresions of pkg installed to our app 
+**** package.lock.json : keep track of exact version of that package
+**** Every package in node_modules have its own pakage.json which shows dependencies
+
+**** command:  npx parcel index.html
+    this command will host App on server
+**** npm is installing pkg
+**** npx means executing packages
+
+# Remove below line while making production build
+  "main": "App.js",
+
+# Parsel //parseljs.org
+- Dev Build
+- Local Server
+- HMR = Hot Module Replacement(as soon as save file changes are available on webpage)
+- File Watching Algorithm - written in c++
+- Caching - (Faster Builds)
+- Image Optimization
+- Minification of production build
+- Bundling
+- Compress
+- Consistant Hashing
+- code splitting
+- Diffrential Bundling - support older browsers
+- Diagnostics
+- Error Handling
+- Https
+
+
+

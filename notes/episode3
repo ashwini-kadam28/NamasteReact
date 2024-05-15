@@ -1,0 +1,12 @@
+Lying the foundations:
+
+# npm start :We can set start command in package.json
+
+# Babel
+Babel is used as a transpiler for JSX element
+Babel is javascript compiler
+Below is how it is converted to html 
+Babel  converts JSX to React.createElement , that's how browser can understand code
+(JSX => React.createElement => ReactElement.(JSObject) => HtmlElement(render))
+
+JSx uses camelcase to attributes eg: className

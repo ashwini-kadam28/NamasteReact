@@ -1,0 +1,28 @@
+Lying the foundations:
+# Episode 4
+
+Array join method
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let text = fruits.join(" and ");
+//Banana and Orange and Apple and Mango
+
+Reconsiliation algoritham also known as react fiber
+- Virtual DOM is a representation of  actual DOM
+- Search "React fiber architecture"
+
+Why React is fast?
+- React is using efficient DOM manipulation bcoz it have virtual DOM
+- With "Diff algorithm" React effieiently find out diffrence between virtual DOM and update the UI. it do   efficientllay do DOM manipluations.
+- In state variable when setMethod is called react will trigger diff algorithm and re re-render page
+
+--Read optional chaining
+
+# Whenever there is change in state variable, react triggers a  reconcilliation cycle(re-renders)
+
+# corsproxy.io append befor API for CORS error
+
+# UseEffect:
+useEffect will be called everytime coponent renders
+If no dependecy array useeffect is called on every component render.
+If have something dependency array then only called evevry time dependency updated
+
