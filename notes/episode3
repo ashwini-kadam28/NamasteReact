@@ -10,3 +10,8 @@ Babel  converts JSX to React.createElement , that's how browser can understand c
 (JSX => React.createElement => ReactElement.(JSObject) => HtmlElement(render))
 
 JSx uses camelcase to attributes eg: className
+
+# Make a call for API in componentDidMount
+ # React lifecycale method diagram : https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+
+ 

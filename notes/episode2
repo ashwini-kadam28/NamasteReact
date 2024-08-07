@@ -27,7 +27,7 @@
 - Caching - (Faster Builds)
 - Image Optimization
 - Minification of production build
-- Bundling
+- Bundling: Bundle all files and generate just one js file
 - Compress
 - Consistant Hashing
 - code splitting
